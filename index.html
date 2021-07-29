@@ -7,12 +7,12 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/PerlinPatterns.loader.js"></script>
+    <script src="Build/PerlinPatternsPrototype.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/PerlinPatterns.data.gz",
-        frameworkUrl: "Build/PerlinPatterns.framework.js.gz",
-        codeUrl: "Build/PerlinPatterns.wasm.gz",
+        dataUrl: "Build/PerlinPatternsPrototype.data",
+        frameworkUrl: "Build/PerlinPatternsPrototype.framework.js",
+        codeUrl: "Build/PerlinPatternsPrototype.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "FlowField",
